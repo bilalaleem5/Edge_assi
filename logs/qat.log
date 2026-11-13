@@ -1,0 +1,16 @@
+FP32 accuracy: 83.54%
+Fake-quant modules inserted: 51
+  epoch 1/3 loss 0.4254 train-acc 85.13%
+  [budget reached at step 478/1173; state saved - re-run the same command to continue]
+FP32 accuracy: 83.54%
+Fake-quant modules inserted: 51
+  [resume qat] continuing from step 478/1173
+  epoch 2/3 loss 0.3992 train-acc 86.19%
+  [budget reached at step 974/1173; state saved - re-run the same command to continue]
+FP32 accuracy: 83.54%
+Fake-quant modules inserted: 51
+  [resume qat] continuing from step 974/1173
+  epoch 3/3 loss 0.3673 train-acc 87.18%
+Fake-quantized (QAT) FP accuracy: 84.12%
+QAT INT8 accuracy: 83.93%
+Saved /home/claude/proj/models/resnet18_qat_int8.pt (0.77 MB)

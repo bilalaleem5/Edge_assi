@@ -1,0 +1,12 @@
+FP32 baseline                  acc 83.54%  lat 1.43 ms  size 2.86 MB
+PTQ INT8                       acc 83.53%  lat 0.44 ms  size 0.77 MB
+QAT INT8                       acc 83.93%  lat 0.43 ms  size 0.77 MB
+Unstructured-pruned (80%)      acc 83.96%  lat 1.64 ms  size 2.86 MB
+Structured-pruned (channels)   acc 82.99%  lat 1.25 ms  size 1.48 MB
+
+                        model  test_accuracy_%  file_size_MB  sparsity_%  MACs_M  latency_bs1_mean_ms  speedup_vs_fp32
+               FP32 baseline            83.54         2.856        0.00   35.05                1.433             1.00
+                    PTQ INT8            83.53         0.774        0.00   35.05                0.438             3.27
+                    QAT INT8            83.93         0.774        0.00   35.05                0.428             3.35
+   Unstructured-pruned (80%)            83.96         2.858       79.73   35.05                1.637             0.88
+Structured-pruned (channels)            82.99         1.481        0.00   17.94                1.252             1.14

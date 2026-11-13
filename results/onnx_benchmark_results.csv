@@ -1,0 +1,6 @@
+onnx_model,test_accuracy_%,file_size_MB,latency_bs1_mean_ms,latency_bs1_p95_ms,throughput_img_per_s
+resnet18_fp32.onnx,83.54,2.81,0.543,0.596,2230.2
+resnet18_ptq_int8.onnx,83.59,0.763,0.244,0.277,4598.4
+resnet18_qat_int8.onnx,84.13,2.903,1.42,1.485,785.6
+resnet18_unstructured_pruned.onnx,83.96,2.81,0.603,0.663,2239.7
+resnet18_structured_pruned.onnx,82.99,1.436,0.344,0.398,3191.9

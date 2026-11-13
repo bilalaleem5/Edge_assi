@@ -1,0 +1,5 @@
+exported resnet18_fp32.onnx (2.81 MB)
+exported resnet18_unstructured_pruned.onnx (2.81 MB)
+exported resnet18_structured_pruned.onnx (1.44 MB)
+exported resnet18_ptq_int8.onnx (0.76 MB)
+exported resnet18_qat_int8.onnx (2.90 MB)

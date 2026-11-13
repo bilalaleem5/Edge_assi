@@ -1,0 +1,20 @@
+--- FP32 baseline ---
+  sample 0: ship       conf 0.74 (true: airplane)
+  sample 1: airplane   conf 0.94 (true: airplane)
+  sample 2: airplane   conf 0.95 (true: airplane)
+--- PTQ INT8 ---
+  sample 0: ship       conf 0.72 (true: airplane)
+  sample 1: airplane   conf 0.94 (true: airplane)
+  sample 2: airplane   conf 0.95 (true: airplane)
+--- QAT INT8 ---
+  sample 0: ship       conf 0.77 (true: airplane)
+  sample 1: airplane   conf 0.99 (true: airplane)
+  sample 2: airplane   conf 0.98 (true: airplane)
+--- Unstructured-pruned (80%) ---
+  sample 0: ship       conf 0.91 (true: airplane)
+  sample 1: airplane   conf 0.98 (true: airplane)
+  sample 2: airplane   conf 0.97 (true: airplane)
+--- Structured-pruned (channels) ---
+  sample 0: ship       conf 0.51 (true: airplane)
+  sample 1: airplane   conf 0.94 (true: airplane)
+  sample 2: airplane   conf 0.95 (true: airplane)

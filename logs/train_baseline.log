@@ -1,0 +1,12 @@
+ResNet-18 (width=16) params: 701,466
+  epoch 1/10 loss 1.5565 train-acc 42.33% | test-acc 47.16%
+  epoch 2/10 loss 1.0922 train-acc 60.93% | test-acc 62.81%
+  epoch 3/10 loss 0.8863 train-acc 68.73% | test-acc 65.92%
+  epoch 4/10 loss 0.7819 train-acc 72.63% | test-acc 72.11%
+  epoch 5/10 loss 0.7079 train-acc 75.38% | test-acc 75.30%
+  epoch 6/10 loss 0.6525 train-acc 77.21% | test-acc 72.61%
+  epoch 7/10 loss 0.6062 train-acc 78.93% | test-acc 79.06%
+  epoch 8/10 loss 0.5494 train-acc 80.81% | test-acc 78.87%
+  epoch 9/10 loss 0.4777 train-acc 83.47% | test-acc 82.51%
+  epoch 10/10 loss 0.4198 train-acc 85.49% | test-acc 83.54%
+FP32 test accuracy: 83.54%  -> saved /home/claude/proj/models/resnet18_fp32.pth (2.86 MB)

@@ -1,0 +1,6 @@
+FP32 accuracy: 83.54%
+  torch.ao.quantization.prepare(model, inplace=True)                # 4) insert observers
+  super().__init__(
+Calibrated on 2000 training images
+PTQ INT8 accuracy: 83.53%
+Saved /home/claude/proj/models/resnet18_ptq_int8.pt (0.77 MB)

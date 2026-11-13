@@ -1,0 +1,31 @@
+Original FP32 accuracy: 83.54%
+[iter 1/5] target sparsity 39.0% | measured 39.04%
+  epoch 1/1 loss 0.4328 train-acc 84.99%
+          acc after fine-tune 83.55%
+[iter 2/5] target sparsity 62.7% | measured 62.72%
+  [budget reached at step 330/391; state saved - re-run the same command to continue]
+Original FP32 accuracy: 83.54%
+[iter 2/5] target sparsity 62.7% | measured 62.72%
+  [resume unstructured_2] continuing from step 330/391
+  epoch 1/1 loss 0.4214 train-acc 85.34%
+          acc after fine-tune 83.38%
+[iter 3/5] target sparsity 74.9% | measured 74.88%
+  epoch 1/1 loss 0.4220 train-acc 85.30%
+          acc after fine-tune 83.61%
+[iter 4/5] target sparsity 79.4% | measured 79.36%
+  [budget reached at step 264/391; state saved - re-run the same command to continue]
+Original FP32 accuracy: 83.54%
+[iter 4/5] target sparsity 79.4% | measured 79.36%
+  [resume unstructured_4] continuing from step 264/391
+  epoch 1/1 loss 0.4154 train-acc 85.65%
+          acc after fine-tune 83.65%
+[iter 5/5] target sparsity 80.0% | measured 80.00%
+  epoch 1/2 loss 0.4196 train-acc 85.22%
+  [budget reached at step 590/782; state saved - re-run the same command to continue]
+Original FP32 accuracy: 83.54%
+[iter 5/5] target sparsity 80.0% | measured 80.00%
+  [resume unstructured_5] continuing from step 590/782
+  epoch 2/2 loss 0.3761 train-acc 86.80%
+          acc after fine-tune 83.96%
+Permanent pruning done. Sparsity 80.00% | non-zero params 142,221 / 701,466 | accuracy 83.96%
+Saved /home/claude/proj/models/resnet18_unstructured_pruned.pth (2.86 MB dense, 0.77 MB gzip-compressed)
